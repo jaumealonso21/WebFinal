@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    
+}
+
+header {
+    float: right;
+    background: black;
+    color: white;
+    text-align: right;
+    width: 10%;
+}
+header span {
+    padding-right: 2em;
+}
+
+#intro {
+    margin: 5% auto;
+    text-align: center;
+}
+
+article {
+    text-align: left;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+footer {
+    background: #aaa;
+    color:white;
+    text-align: center;
+    margin: 5% auto;
+}
+
+nav {
+   background:#eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
