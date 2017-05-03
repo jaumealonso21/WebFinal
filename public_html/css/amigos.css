@@ -3,17 +3,14 @@ body {
     padding: 0;
 }
 
-#container {
-    margin: 0;
-    padding: 0;
+.img_main {
+    width: 100px;
+    height: 100px;
+/*    position: relative;*/
+/*    top: 100px;left: 200px;*/
 }
-
-main {
-    
-}
-
 header {
-    float: right;
+    display: inline-block;
     background: black;
     color: white;
     text-align: right;
@@ -23,32 +20,9 @@ header span {
     padding-right: 2em;
 }
 
-#intro {
-    margin: 5% auto;
-    text-align: center;
-}
-
-article {
-    text-align: left;
-    font-family: Verdana, Geneva, sans-serif;
-}
-
 footer {
     background: #aaa;
     color:white;
     text-align: center;
     margin: 5% auto;
-}
-
-nav {
-   background:#eee;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul a {
-    text-decoration: none;
 }
