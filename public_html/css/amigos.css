@@ -2,10 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
+main {
+    text-align: center;
+}
 .img_main {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 /*    position: relative;*/
 /*    top: 100px;left: 200px;*/
 }
@@ -19,7 +21,31 @@ header {
 header span {
     padding-right: 2em;
 }
-
+#logotip {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 250px;
+    border-radius: 150px;
+    /*background-color: cyan;*/
+/*    text-align: center;*/
+    -webkit-border-radius: 150px; 
+    -moz-border-radius: 150px; 
+    background: url(../img/logo.png) cyan no-repeat;
+    background-size: 60px 60px;
+    background-position: 18px 20px;
+}
+#logotip span {
+  display: inline-block;
+  vertical-align: central;
+  line-height: normal;
+}
+#imgIzq {
+    display: inline-block;
+}
+#imgDer {
+    display: inline-block;
+}
 footer {
     background: #aaa;
     color:white;
