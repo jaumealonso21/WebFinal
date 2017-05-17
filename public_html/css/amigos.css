@@ -9,8 +9,6 @@ main {
 .img_main {
     width: 150px;
     height: 150px;
-    /*    position: relative;*/
-    /*    top: 100px;left: 200px;*/
 }
 header {
     display: inline-block;
@@ -47,9 +45,15 @@ header span {
 }
 .logoInner {
     background-color: white;
-/*    padding: 10px 10px;*/
+    cursor: pointer;
 }
-
+h2 {
+    color: #AC0CE8;
+    text-shadow: 2px 2px 5px #000000;
+}
+h5 {
+    color: #E86C0C;
+}
 #imgIzq {
     display: inline-block;
 }
@@ -57,8 +61,22 @@ header span {
     display: inline-block;
 }
 aside {
+    display: inline;
+    padding-right: 25px;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.imgInner {
+    max-width: 50%;
+}
+.innerPages {
     width: 35%;
     padding-left: 25px;
+    text-align: left;
+}
+.innerPages span {
+    font-weight: bold;
 }
 footer {
     background: #aaa;
