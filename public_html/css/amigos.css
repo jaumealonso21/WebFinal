@@ -28,8 +28,6 @@ header span {
     height: 100px;
     line-height: 250px;
     border-radius: 150px;
-    /*background-color: cyan;*/
-    /*    text-align: center;*/
     -webkit-border-radius: 150px; 
     -moz-border-radius: 150px; 
     background: url(../img/logo.png) cyan no-repeat;
@@ -55,10 +53,9 @@ h5 {
 }
 label {
     color: #E86C0C;
-    size: 1.2em;
+    font-weight: bold; 
 }
 input {
-    border: auto;
     border-radius: 10px;
 }
 #imgIzq {
