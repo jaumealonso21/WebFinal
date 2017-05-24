@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: "VERDANA", Georgia, Serif;
 }
 main {
     text-align: center;
@@ -12,7 +12,6 @@ main {
 }
 header {
     display: inline-block;
-/*    background: black;*/
     color: white;
     text-align: right;
     width: 10%;
@@ -54,6 +53,14 @@ h2 {
 h5 {
     color: #E86C0C;
 }
+label {
+    color: #E86C0C;
+    size: 1.2em;
+}
+input {
+    border: auto;
+    border-radius: 10px;
+}
 #imgIzq {
     display: inline-block;
 }
@@ -68,12 +75,13 @@ aside {
     left: 60%;
 }
 .imgInner {
-    max-width: 50%;
+    max-width: 25%;
 }
 .innerPages {
     width: 35%;
     padding-left: 25px;
     text-align: left;
+    height: 80%;
 }
 .innerPages span {
     font-weight: bold;
