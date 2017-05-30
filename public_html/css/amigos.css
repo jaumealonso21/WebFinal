@@ -44,6 +44,12 @@ header span {
     background-color: white;
     cursor: pointer;
 }
+p a img {
+    border: 0;
+    width: 44px;
+    height: 16px;
+    margin-left: 80%;
+}
 h2 {
     color: #AC0CE8;
     text-shadow: 2px 2px 5px #000000;
