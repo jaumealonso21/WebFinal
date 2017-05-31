@@ -10,11 +10,26 @@ main {
     width: 150px;
     height: 150px;
 }
+.idioms {
+    width: 45px;
+    height: 20px;
+}
+.inici {
+    display: block;
+    color: red;
+    text-align: right;
+    width: 100%;
+    padding-top: 10px;
+}
+.inici div {
+    padding-right: 25%;
+}
 header {
     display: inline-block;
     color: white;
     text-align: right;
     width: 10%;
+    
 }
 .headerInner {
     padding: 10px 10px;
